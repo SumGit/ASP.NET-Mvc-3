@@ -8,7 +8,7 @@
         private WebRequestExecutor _response;
         private WebRequest _request;
         private DOMElement _updateTarget;
-
+        //计算
         public AjaxContext(WebRequest request, DOMElement updateTarget, DOMElement loadingElement, InsertionMode insertionMode) {
             _request = request;
             _updateTarget = updateTarget;
